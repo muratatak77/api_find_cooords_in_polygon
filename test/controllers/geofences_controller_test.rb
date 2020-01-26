@@ -51,7 +51,6 @@ class GeofencesControllerTest < ActionDispatch::IntegrationTest
     assert_response 200
     res =  JSON.parse(response.body)
     assert_equal @geofence.area_name, res['area_name']
-
   end
 
 
