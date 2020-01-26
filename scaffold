@@ -1,0 +1,1 @@
+rails g scaffold geofence coordinates:float area_name:string --api
